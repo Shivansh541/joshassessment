@@ -1,0 +1,330 @@
+#contact{
+    width: 1440px;
+    height: 1206px;
+    padding: 52px 0;
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.contact_content{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+    gap: 50px;
+    align-items: center;
+}
+.contact_head h2{
+font-weight: 400;
+font-size: 48px;
+line-height: 55px;
+letter-spacing: 0.2px;
+text-align: center;
+padding: 10px;
+color: var(--primary-color);
+}
+.contact_head h4{
+font-weight: 400;
+font-size: 28px;
+line-height: 40px;
+letter-spacing: 0.2px;
+text-align: center;
+padding: 10px;
+color: var(--second-color);
+}
+.contact_head{
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    align-items: center;
+}
+.contact_row{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.contact_left{
+    width: 453px;
+}
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    padding: 52px 50px;
+    gap: 45px;
+    border-radius: 20px;
+}
+.contact_form h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: var(--primary-color);
+}
+.contact_form input{
+    border: none;
+    padding: 19px 20px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+}
+.contact_form textarea{
+    padding: 23px 20px;
+    border: none;
+    height: 193px;
+}
+.contact_form .btn{
+    width: 145px;
+    height: 56px;
+}
+.contact_items{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.contact_box{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    align-items: center;
+}
+.contact_box h6{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    padding: 10px;
+    color: var(--second-color);
+}
+.contact_right{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.location_screen{
+        margin: auto;
+    width: 516px;
+    padding: 10px 0;
+}
+.contact_social{
+    display: flex;
+    gap: 22px;
+    padding: 10px;
+}
+#success_modal {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.6);
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+.no_scroll {
+  overflow: hidden;
+}
+
+.modal_content {
+  background: white;
+  padding: 20px 30px;
+  border-radius: 8px;
+  text-align: center;
+  position: relative;
+}
+
+#close_btn {
+  position: absolute;
+  top: 10px; right: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+@media screen and (max-width:1280px) {
+    #contact{
+        width: 100%;
+        padding: 35px 0;
+        height: 865px;
+    }
+    .contact_head h2{
+        font-size: 35px;
+        line-height: 42px;
+        padding: 5px;
+    }
+    .contact_head h4{
+        font-size: 20px;
+        line-height: 28px;
+        padding: 5px;
+        width: 420px;
+    }
+    .contact_content{
+        padding: 40px 0;
+        gap: 50px;
+    }
+    .contact_form h3{
+        font-size: 15px;
+        line-height: 20px;
+
+    }
+    .contact_form input{
+        font-size: 11px;
+        line-height: 14px;
+        padding: 10px;
+    }
+    .contact_form textarea{
+        padding: 10px;
+        font-size: 11px;
+        height: 140px;
+
+    }
+    .contact_form .btn{
+        width: 115px;
+        height: 42px;
+    }
+    .contact_box img{
+        width: 19px;
+    }
+    .contact_box h6{
+        font-size: 12px;
+        line-height: 20px;
+        padding: 5px;
+    }
+    .location_screen iframe{
+        width: 380px;
+        height: 240px;
+    }
+    .contact_social img{
+        width: 32px;
+        height: 32px;
+    }
+    .contact_form{
+        padding: 25px 44px;
+        gap: 37px;
+    }
+    .contact_left{
+        width: 336px;
+    }
+    .contact_right{
+        gap: 25px;
+    }
+    .contact_address{
+        width: 220px;
+    }
+    .contact_box{
+        width: auto !important;
+    }
+    .contact_row{
+        gap: 30px;
+    }
+    .contact_items{
+        gap: 10px;
+    }
+    .location_screen{
+        width: auto;
+    }
+    .contact_social{
+        padding: 10px 0;
+        gap: 15px;
+    }
+}
+@media screen and (max-width: 430px) {
+    #contact{
+        height: 290px;
+        padding: 2px 0;
+    }
+    .contact_head h4{
+       font-size: 7px;
+        line-height: 9px;
+        padding: 2px;
+        width: 150px;
+    }
+    .contact_head{
+        width: auto;
+        gap: 2px;
+    }
+    .contact_head h2{
+        font-size: 12px;
+        line-height: 14px;
+        padding: 2px;
+    }
+    .contact_box h6{
+        font-size: 4px;
+        line-height: 6px;
+        padding: 2px;
+    }
+    .contact_address{
+        width: 75px;
+    }
+    .location_screen iframe{
+        width: 170px;
+        height: 90px;
+    }
+    .contact_social img{
+        width: 24px;
+        height: 24px;
+    }
+    .contact_form{
+        padding: 5px;
+        gap: 13px;
+    }
+    .contact_content{
+        gap: 10px;
+    }
+    .contact_form input, .contact_form textarea{
+        font-size: 4px;
+        line-height: 6px;
+        padding: 2px;
+    }
+    .contact_form textarea{
+        height: 60px;
+    }
+    .contact_form h3{
+        font-size: 5px;
+        line-height: 7px;
+    }
+    .contact_left{
+        width: 106px;
+    }
+    .contact_box img{
+        width: 7px;
+    }
+    .contact_row{
+        gap: 15px;
+    }
+    .contact_items{
+        gap: 2px;
+    }
+    .contact_form .btn{
+        width: 36px;
+        height: 13px;
+    }
+    .contact_box{
+        gap: 5px;
+    }
+    .contact_social img{
+        width: 12px;
+        height: 12px;
+    }
+    .contact_social{
+        gap: 4px;
+        padding: 4px 0;
+    }
+    .contact_content{
+        padding: 20px;
+        gap: 15px;
+    }
+    .contact_right{
+        gap: 5px;
+    }
+    .location_screen{
+        padding: 5px 0;
+    }
+    .location_screen iframe{
+        width: 120px;
+        height: 80px;
+    }
+}

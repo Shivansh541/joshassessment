@@ -1,0 +1,343 @@
+.features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+.feature_head h2{
+    color: var(--primary-color);
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    padding: 10px;
+}
+.feature_head h4{
+    color: var(--second-color);
+    width: 550px;
+    height: 100px;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+.feature_head{
+ 
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+.item_box img{
+    padding: 7px;
+}
+.item_box h3{
+    color: var(--primary-color);
+    padding: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    text-align: center;
+}
+.item_box p{
+    color: var(--second-color);
+    padding: 0 10px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+.item_box{
+    display: flex
+;
+    flex-direction: column;
+    gap: 10px;
+    width: 255px;
+    align-items: center;
+    color: #252B42;
+}
+.feature_items{
+    display: flex
+;
+    gap: 52px;
+    justify-content: center;
+}
+.feature_screen{
+    width: 1058.19px;
+    padding: 52px 0;
+}
+.play_btn{
+    position: absolute;
+    background-color: var(--button-color);
+    width: 187.4px;
+    height: 187.4px;
+    border-radius: 50%;
+    border: none;
+}
+.play{
+    display: inline;
+}
+.pause{
+    display: none;
+    height: 56px;
+    width: 48px;
+}
+#screen_content {
+  width: 100%;
+  max-width: 1177.34px;
+  margin: 0 auto;
+  padding-top: 52px;
+  padding-bottom: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.video_screen {
+  width: 100%;
+  height: 658.3px;
+  border-radius: 81.48px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* important to fill the entire height/width like Figma */
+  border-radius: 44.81px;
+  box-shadow: 0px 8.15px 63.14px rgba(0, 0, 0, 0.15);
+  display: block;
+}
+#hero_light{
+    padding: 226px 82px;
+}
+.hero_content{
+    padding: 43px 0;
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero_text_content h2{
+    width: 333px;
+    padding: 10px 0;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: 0.2px;
+    color: var(--primary-color);
+}
+.hero_text_content h4{
+    width: 530px;
+    padding: 10px 0;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+    color: var(--second-color);
+}
+.hero_text_content{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.left_hero{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.hero_action_content .btn{
+    height: 60px;
+}
+.right_hero{
+    padding: 18.41px;
+}
+
+@media screen and (max-width: 1280px) {
+    .feature_head h2{
+        font-size: 37px;
+        padding: 5px;
+    }
+    .feature_head h4{
+        width: 420px;
+        font-size: 20px;
+        line-height: 30px;
+        padding: 5px;
+    }
+    .feature_head{
+        gap: 0;
+    }
+    .item_box img{
+        width: 44px;
+    }
+    .item_box h3{
+        padding: 5px;
+        width: 163px;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .features{
+        gap: 27px;
+    }
+    .item_box{
+        width: auto;
+        gap: 7px;
+    }
+    .feature_items{
+        gap: 35px;
+    }
+    .item_box p{
+        width: 180px;
+        font-size: 13px;
+        line-height: 19px;
+    }
+    .video{
+        width: 83%;
+    }
+    .video_screen{
+        height: auto;
+    }
+    .play_btn{
+        width: 130px;
+        height: 130px;
+    }
+    .play{
+        width: 24px;
+        height: 24px;
+    }
+    .pause{
+        width: 32px;
+        height: 32px;
+    }
+    #hero_light{
+        padding: 130px 82px;
+    }
+    .right_hero img{
+        width: 450px;
+    }
+    .hero_text_content{
+        gap: 0;
+    }
+    .hero_text_content h2{
+        width: 245px;
+        font-size: 37px;
+        line-height: 41px;
+        padding: 7px 0;
+        letter-spacing: -0.8px;
+    }
+    .hero_text_content h4{
+        width: 390px;
+        font-size: 21px;
+        line-height: 29px;
+    }
+    .hero_action_content .btn{
+        height: 45px;
+    }
+    .hero_content{
+        gap: 36px;
+        padding: 42px 0;
+    }
+    .left_hero{
+        gap: 36px;
+    }
+    .right_hero{
+        padding: 17.42px 0;
+    }
+
+}
+@media screen and (max-width:430px) {
+    .feature_head h2{
+        font-size: 12px;
+        line-height: 16px;
+        padding: 2px;
+    }
+    .feature_head h4{
+        width: 150px;
+        font-size: 7px;
+        line-height: 10px;
+        padding: 2px;
+        height: auto;
+    }
+    .item_box img{
+        width: 25px;
+    }
+    .item_box h3{
+        padding: 2px;
+        width: 58px;
+        font-size: 5px;
+        line-height: 7px;
+    }
+    .item_box p{
+        width: 72px;
+        font-size: 4px;
+        line-height: 6px;
+        padding: 1px 10px;
+    }
+    .feature_items{
+        gap: 2px;
+    }
+    .features{
+        gap: 14px;
+    }
+    .item_box{
+        gap: 0;
+    }
+    #screen_content{
+        padding: 17px 0;
+    }
+    .video{
+        width: 74%;
+    }
+    .play_btn{
+        width: 45px;
+        height: 45px;
+    }
+    .play{
+        width: 10px;
+        height: 10px;
+    }
+    .pause{
+        width: 15px;
+        height: 15px;
+    }
+    #hero_light{
+        padding: 49px;
+    }
+    .hero_content{
+        gap: 0;
+        padding: 0;
+    }
+    .right_hero img{
+        width: 150px;
+    }
+    .hero_text_content h2{
+        width: 87px;
+        font-size: 13px;
+        line-height: 13px;
+        padding: 0;
+        letter-spacing: 0.2px;
+    }
+    .hero_text_content h4{
+        width: 144px;
+        font-size: 7px;
+        line-height: 10px;
+        padding: 5px 0;
+    }
+    .hero_action_content .btn{
+        height: 16px;
+    }
+    .left_hero{
+        gap: 13px;
+    }
+}

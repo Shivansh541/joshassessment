@@ -1,0 +1,154 @@
+#footer{
+    padding: 150px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #252B42;
+}
+.footer_heading{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: white;
+    padding: 10px 0;
+}
+.footer_column{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.footer_list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    list-style: none;
+}
+.footer_link{
+    text-decoration: none;
+    color: white;
+font-weight: 400;
+font-size: 15px;
+line-height: 28px;
+letter-spacing: 0.2px;
+
+}
+.footer-columns{
+    display: flex;
+    gap: 20px;
+}
+.footer_content{
+    display: flex;
+    gap: 125px;
+}
+.footer_right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer_block{
+    display: flex;
+    color: white;
+    align-items: center;
+}
+.footer_block h4{
+font-weight: 400;
+font-size: 15px;
+line-height: 27px;
+letter-spacing: 0.2px;
+padding: 10px;
+}
+.footer_social{
+    display: flex;
+    gap: 24px;
+    padding: 20px 0;
+}
+
+@media screen and (max-width:1280px) {
+    .footer_heading{
+        font-size: 14px;
+        line-height: 14px;
+        padding: 5px;
+    }
+    .footer_link{
+        font-size: 11px;
+        line-height: 11px;
+    }
+    .footer_block img{
+        width: 32px;
+    }
+    .footer_block h4{
+        font-size: 11px;
+        line-height: 11px;
+        padding: 7px;
+    }
+    .footer_social img{
+        width: 32px;
+    }
+    .footer_social{
+        padding: 12px 0;
+        gap: 18px;
+    }
+    #footer{
+        padding: 115px 0;
+    }
+    .footer_list{
+        gap: 13px;
+    }
+    .footer_column{
+        width: 135px !important;
+    }
+    .footer_content{
+        gap: 80px;
+    }
+}
+@media screen and (max-width:430px){
+    #footer{
+        padding: 38px 0;
+    }
+    .footer_heading{
+        font-size: 5px;
+        line-height: 7px;
+        padding: 2px;
+    }
+    .footer_link{
+        font-size: 3px;
+        line-height: 5px;
+        padding: 2px;
+    }
+    .footer_list{
+        gap: 0;
+    }
+    .footer_column{
+        gap: 0;
+        width: 40px !important;
+    }
+    .footer_block img{
+        width: 12px;
+    }
+    .footer_block h4{
+        font-size: 4px;
+        line-height: 4px;
+        padding: 2px;
+    }
+    .footer_right{
+        gap: 4px;
+    }
+    .footer_social img{
+        width: 12px;
+    }
+    .footer_social{
+        gap: 6px;
+        padding: 0;
+    }
+
+    .footer-columns{
+        gap: 12px;
+    }
+    .footer_content{
+        gap: 30px;
+    }
+    .footer_item{
+        height: 8px;
+    }
+}
